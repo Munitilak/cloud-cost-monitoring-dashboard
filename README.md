@@ -29,7 +29,8 @@ A responsive multi-cloud cost monitoring dashboard designed to help users analyz
 
 ### Dashboard Overview
 
-![Dashboard Overview](screenshots/dashboard-overview.png)
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/62b01fe3-bf86-46c8-a4e5-f77c223bcf88" />
+
 
 ### Services Monitoring
 
