@@ -2,6 +2,10 @@
 
 A responsive multi-cloud cost monitoring dashboard designed to help users analyze cloud spending, track budgets, monitor services, identify alerts, and discover potential cost-saving opportunities across AWS, Google Cloud, and Microsoft Azure.
 
+## 🚀 Live Demo
+
+👉 [View Live Demo](https://cloud-cost-monitorin-bll3.bolt.host)
+
 ## 🚀 Features
 
 - 📊 Cloud spending overview dashboard
