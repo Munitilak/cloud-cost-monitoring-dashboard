@@ -20,58 +20,93 @@ A responsive multi-cloud cost monitoring dashboard designed to help users analyz
 - TypeScript
 - Vite
 - Tailwind CSS
-- Recharts
 - Supabase
 - JavaScript/TypeScript
 - Git & GitHub
 
-📸 Screenshots
+## 📸 Screenshots
 
 ### Dashboard Overview
 
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/62b01fe3-bf86-46c8-a4e5-f77c223bcf88" />
-
+![Dashboard Overview](Screenshots/dashboard-overview.png)
 
 ### Services Monitoring
 
-<img width="1920" height="1080" alt="services" src="https://github.com/user-attachments/assets/d5caab78-c4a5-426a-bd50-7a8a8ed39bb2" />
-
+![Services Monitoring](Screenshots/services.png)
 
 ### Budget Tracking
 
-<img width="1920" height="1080" alt="budget-tracking" src="https://github.com/user-attachments/assets/a49bd542-b2e0-4454-a74a-7ff73c2e9ea8" />
-
+![Budget Tracking](Screenshots/budget-tracking.png)
 
 ### Cost Alerts
 
-<img width="1920" height="1080" alt="alerts" src="https://github.com/user-attachments/assets/a8a706aa-7618-488f-b3e3-4ee51c503676" />
-
+![Cost Alerts](Screenshots/alerts.png)
 
 ### Cost Optimization Recommendations
 
-<img width="1920" height="1080" alt="recommendations" src="https://github.com/user-attachments/assets/911f2c55-7b6f-46b9-877a-b1b1a083ee92" />
+![Cost Optimization Recommendations](Screenshots/recommendations.png)
 
+## 🎯 Project Objective
 
-## 📂 Project Structure
+The objective of this project is to provide a centralized dashboard for monitoring and analyzing cloud expenditure across multiple cloud providers.
+
+The dashboard helps users understand their cloud spending, track budgets, monitor individual services, identify cost alerts, and discover potential optimization opportunities.
+
+## 📊 Dashboard Modules
+
+### 1. Overview
+
+Provides a summary of:
+
+- Current month spending
+- Projected month-end cost
+- Budget utilization
+- Potential savings
+- Active alerts
+- Cloud spending trends
+
+### 2. Services
+
+Displays service-level spending information across AWS, Google Cloud, and Azure.
+
+### 3. Budget Tracking
+
+Allows users to monitor:
+
+- Total budget
+- Amount spent
+- Remaining budget
+- Budget utilization
+- Individual service budgets
+
+### 4. Alerts
+
+Displays budget warnings, unused resources, anomalies, and other cloud cost alerts.
+
+### 5. Recommendations
+
+Provides cost optimization suggestions with estimated monthly savings.
+
+Examples include:
+
+- Right-sizing compute resources
+- Removing idle resources
+- Optimizing storage
+- Reducing unnecessary network costs
+
+## 🏗️ Architecture
 
 ```text
-cloud-cost-monitoring-dashboard/
-│
-├── src/
-│   ├── components/
-│   ├── pages/
-│   ├── hooks/
-│   └── ...
-│
-├── public/
-├── supabase/
-│   └── migrations/
-│
-├── package.json
-├── package-lock.json
-├── vite.config.ts
-├── tailwind.config.js
-├── .gitignore
-└── README.md
-
- 
+User
+  ↓
+React Web Application
+  ↓
+Dashboard Components
+  ↓
+Supabase Database
+  ↓
+Cloud Cost Data
+  ↓
+Analytics & Recommendations
+  ↓
+User Dashboard
