@@ -34,19 +34,23 @@ A responsive multi-cloud cost monitoring dashboard designed to help users analyz
 
 ### Services Monitoring
 
-![Services Monitoring](screenshots/services.png)
+<img width="1920" height="1080" alt="services" src="https://github.com/user-attachments/assets/d5caab78-c4a5-426a-bd50-7a8a8ed39bb2" />
+
 
 ### Budget Tracking
 
-![Budget Tracking](screenshots/budget-tracking.png)
+<img width="1920" height="1080" alt="budget-tracking" src="https://github.com/user-attachments/assets/a49bd542-b2e0-4454-a74a-7ff73c2e9ea8" />
+
 
 ### Cost Alerts
 
-![Cost Alerts](screenshots/alerts.png)
+<img width="1920" height="1080" alt="alerts" src="https://github.com/user-attachments/assets/a8a706aa-7618-488f-b3e3-4ee51c503676" />
+
 
 ### Cost Optimization Recommendations
 
-![Cost Optimization Recommendations](screenshots/recommendations.png)
+<img width="1920" height="1080" alt="recommendations" src="https://github.com/user-attachments/assets/911f2c55-7b6f-46b9-877a-b1b1a083ee92" />
+
 
 ## 📂 Project Structure
 
