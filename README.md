@@ -46,3 +46,25 @@ cloud-cost-monitoring-dashboard/
 ├── tailwind.config.js
 ├── .gitignore
 └── README.md
+
+ 📸 Screenshots
+
+### Dashboard Overview
+
+![Dashboard Overview](screenshots/dashboard-overview.png)
+
+### Services Monitoring
+
+![Services Monitoring](screenshots/services.png)
+
+### Budget Tracking
+
+![Budget Tracking](screenshots/budget-tracking.png)
+
+### Cost Alerts
+
+![Cost Alerts](screenshots/alerts.png)
+
+### Cost Optimization Recommendations
+
+![Cost Optimization Recommendations](screenshots/recommendations.png)
